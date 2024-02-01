@@ -6,7 +6,7 @@
   "scripts": {
     "start": "start-storybook",
     "build": "build-storybook",
-    "test": "percy storybook:start"
+    "test": "NODE_OPTIONS=--openssl-legacy-provider percy storybook:start"
   },
   "dependencies": {
     "@percy/cli": "^1.0.5",
